@@ -1,20 +1,127 @@
 <!DOCTYPE html>
 <!-- saved from url=(0099)https://content.byui.edu/file/5baa7973-1f47-4b74-bc67-7782514e10e4/1/Teach/213.03.TeachProblem.html -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <style> /* #0 */
-	   body { font-size:36px; }
+ 
+
+  <style> /* #0 Clarissa Allan */ 
+	  h1{
+      background-color: #934caf; /* Purple */
+      border: dashed;
+      color: rgb(166, 245, 20);
+      text-align: center;
+      font-size: 2px;
+      }
+
+      p{
+      font-style: oblique;
+      font-size: 200px;
+      color:crimson;
+      text-shadow: 0px 5px 3px white;
+      word-spacing: 30px;
+      }
 	</style>
-    <style> /* #1 */
-	   body { font-size:16px; }
+  <style> /* #1 Chritopher Bagwell */
+    body {
+      font-size: 18px;
+      background-color: black;
+      margin: 0px;
+      padding-left: 5px;
+    }
+  .document {
+    background-color: rgba(143, 142, 142, 0.4);
+    margin-left: 200px;
+    margin-top: 0px;
+    padding-left: 5px;
+    height: 100%;
+  }
+  .content {
+    margin-left: 5px;
+  }
+  
+  #title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 189, 6);
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  #title h1 {
+    margin: 0px;
+  }
+  
+  #menuBar {
+    height: 100%;
+    width: 210px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkslategrey;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  }
+  #menuBarList li {
+    padding-bottom: 35px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #29f122;
+    list-style-type: none;
+  }
+  #menuBarList li:hover {
+    color: #69e0f5;
+  }
+  #bottom {
+    border: 2px solid red;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+  }
+  
+  #sidebar {
+    height: 170px;
+    width: 250px;
+    position: relative;
+    bottom: 0px;
+    background-color: rgb(151, 178, 235);
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: black;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+    margin: 0 auto;
+  }
+  #text h1:nth-child(1) {
+    color: orange;
+    position: relative;
+    top: 140px;
+  }
+  #text p:nth-child(2) {
+    color: orange;
+    position: relative;
+    top: 120px;
+  }
+  #text h1:nth-child(3) {
+    color: red;
+    position: relative;
+    bottom: 140px;
+    text-align: center;
+  }
+  #text p:nth-child(4) {
+    color: red;
+    position: relative;
+    bottom: 165px;
+    left: 10px;
+  }
+  #text a {
+    color: rgb(238, 223, 196);
+  }
+  #text a:hover {
+    color: rgb(177, 243, 248);
+  }
+
 	</style>
-    <style> /* #2 */
-	   body { font-size:12px; }
-	</style>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <style> /* #3 */
+  
+  <style> /* #2 Ryan Porter */
     /* Style by Ryan Porter */
-	   body {
+    body {
            font-family: "Lora", serif;
            background-color: #0000FF;
        }
@@ -78,11 +185,172 @@
         div#bottom {
             text-align: center;
         }
+
+
 	</style>
-    <style> /* #4 */
+  <style> /* #3 David Siebert */
+      body {
+            text-align: center;
+           color: #ff8800;
+           background-color: #282828;
+           font-size:12px;
+           font-family: "courier", monospace;
+       }
+       h1, h2, h3, h4, h5, h6 {
+           font-weight: bold;
+           font-size:24px;
+           color:#33ff33;
+       }
+       div.content  {
+            width: 75%;
+            display: block;
+            margin: auto;
+            color:#33ff33;
+            background-color: #303030;
+            border-radius: 10px;
+            padding: 40px;
+        }
+       #menuBar {
+            height: 100%;
+            width: 140px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #141414;
+        }
+    #menuBarList li {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #ff8000;
+        list-style-type: none;
+    }
+    #menuBarList li:hover {
+        color: #282828;
+        background-color: #dd8000;
+    }
+    #sidebar {
+    height: 170px;
+    width: 250px;
+    position: relative;
+    bottom: 0px; 
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: yellow;
+    margin: 0 auto;
+  }
+	</style>
+  <style> /* #4 Todd Struiksma */
+	   body { 
+           font-size: 20px;
+           background-color:rgb(224, 236, 53);
+           font-family: Poppins, sans-serif;
+           }
+        .document {
+            background-color: white;
+            max-width: 1100px;
+            margin: auto;
+            
+        } 
+        #title {
+            border: .25rem solid rgb(241, 93, 197);
+            border-radius: .5rem;
+            margin: .5rem;
+            align-items: center;
+            background-color: rgba(102, 121, 228, 0.397);
+
+        } 
+        h1{
+            font-family: 'Ranchers', cursive;
+            padding: .5rem 1rem;
+
+        } 
+        #title h1{
+            color:rgb(40, 163, 126);
+            text-align: center;
+        }
+        #title p{
+            text-align: center;
+            color: rgb(3, 109, 3)
+        }
+        a:hover {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color:rgb(231, 108, 59);
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+        li {
+            border: .25rem dotted rgb(82, 65, 238);
+            border-radius: .5rem;
+            padding: 5px;
+            margin: 5px;
+            max-width: 200px;
+            
+            color:rgb(232, 209, 246); 
+            background-color: rgb(233, 18, 18);
+        }
+      #text {
+          grid-row: 1/4;
+          grid-column: 1/3;
         
-    </style>
-    
+      }
+      #menuBar{
+          grid-row: 1/2;
+          grid-column: 3/4;
+      }
+      #text p:nth-child(2) {
+          padding: 0 1.5rem;
+          margin: 0 .5rem;
+
+      }
+      #text h1:nth-child(1) {
+          color: rgb(82, 219, 18);
+          padding: 0 .5rem;
+          margin: .5rem 0 0 0;
+      }
+      #text h1:nth-child(3) {
+          color: rgb(219, 58, 18);
+          padding: 0 1rem;
+          margin:.5rem;
+      }
+      #text p:nth-child(4) {
+          padding: .5rem 1rem;
+          margin:.5rem;
+          
+      }
+      #sidebar{
+        border: .25rem solid blue;
+        border-radius: .5rem;
+        padding: .5rem;
+        margin: 1rem;
+        grid-row: 2/3;
+        grid-column: 3/4;
+        z-index: 2;
+        background-color: rgb(240, 148, 106);
+      } 
+      h3{
+        color:rgb(114, 40, 163)
+      } 
+      #sidebar p{
+          padding: .5rem 1rem;
+      }  
+      #bottom {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+  </style>
+  
+  
+  <!--  Fonts for Stylesheet 3 (Ryan Porter)  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora"> 
+     
     
     <title>Week 03 : CSS</title>
    </head>
@@ -108,10 +376,10 @@
             <p>There are four stylesheets that you may select from. Each one will change the coloring, fonts, 
             		and even the layout of the page.You can change the layout of this page by selecting different 
                     stylesheets in the menu, or by selecting one of the following links:<br>
-              <a href="" onclick="applyStyle(0)">Stylesheet 1</a>,
-              <a href="" onclick="applyStyle(1)">Stylesheet 2</a>,
-              <a href="" onclick="applyStyle(2)">Stylesheet 3</a>,
-              <a href="" onclick="applyStyle(3)">Stylesheet 4</a>,
+              <a href="#" onclick="applyStyle(0)">Stylesheet 1</a>,
+              <a href="#" onclick="applyStyle(1)">Stylesheet 2</a>,
+              <a href="#" onclick="applyStyle(2)">Stylesheet 3</a>,
+              <a href="#" onclick="applyStyle(3)">Stylesheet 4</a>.
               <a href="#" onclick="applyStyle(4)">Stylesheet 5</a>.
             </p>
              <h1>Instructions</h1>
@@ -125,18 +393,43 @@
                     on the page.</p>
           </div> <!--sidebar -->
         </div> <!-- content -->
-        <div id="bottom">Submit this assignment by </div>
+        <div id="bottom">Submit this assignment by 
+      
+        <p>Stylesheet #1 -&nbsp;Clarissa Allan<br />
+          I added a purple background for the Heading 1, a border that is dashed, and shrunk the text, and align it to the center.<br>
+          For Paragraph (p) I upped the spacing and the size, turned it red and added a text-shadow.</p>
+          
+          <p>Stylesheet #2 -&nbsp;Chritopher Bagwell<br />
+          I changed the background to a darker theme, forcing me to change the text color to contrast with that theme.<br>
+          I moved the UL list to the left as a menubar and added highlighting when they are hoverd over.<br>
+          I did similar hovering style to the link text. I swapped the order of the instructions and select style sheet paragraphs.<br>
+          I moved the grading into it&#39;s own box and positioned it in the middle. Finally I put a red boarder for the bottom part.<br>
+          I changed the font-face for the page as we well.</p>
+          
+          <p>Stylesheet #3 -&nbsp;Ryan Porter<br/>
+            I used CSS animations, Google Fonts, and rounded borders. I also styles the menu to look nicer and floated things to the center.</p>
+          
+          <p>Stylesheet #4 -&nbsp;David Siebert<br />
+          I went old school and used colors from the amber and green monitors of the day. Plus some simple menu animation.</p>
+          
+          <p>Stylesheet #5 -&nbsp;Todd Struiksma<br />
+          I started by centering the document content and setting a yellow background. The top title text now has a purple background. <br>
+          Hyperlink colors have been updated. The stylesheet menuBar in now on the right side with a dotted border. <br>
+          The grading "sidebar" in now on the right side and have a background color. The bottom div is outlined in a red border. 
+  
+
+        </div>   
       </div> <!-- document -->
       
       <script>
-	    <!-- DISABLE STYLES: This function turns off the four stylesheets -->
+	    <!-- DISABLE STYLES: This function turns off the five stylesheets -->
 	    function disableStyles() 
 		{
 		  document.styleSheets[0].disabled = true;
 		  document.styleSheets[1].disabled = true;
 		  document.styleSheets[2].disabled = true;
 		  document.styleSheets[3].disabled = true;
-          document.styleSheets[4].disabled = true;
+      document.styleSheets[4].disabled = true;
 		}
 		<!-- APPLY STYLES: This function turns off all four stylesheets, then turns one back on -->
 		function applyStyle(i)
