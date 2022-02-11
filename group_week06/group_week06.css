@@ -1,0 +1,160 @@
+
+/*----------Original CSS from .HTML ----------------- */
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			margin: 0;
+			font-size: 62.5%;
+		}
+		
+		ul {
+			padding-left: 0;
+		}
+		
+		/**************************************/
+		
+		.blue_rounded {
+			border: 2px solid #26607F;
+			border-radius: 0.5rem;
+			background-color: #0076b6;
+			font-size: 1.2rem;
+			font-weight: bold;
+			margin: 1rem;
+			padding: 1rem;
+		}
+		
+		.white_rounded {
+			border: 2px solid #26607F;
+			border-radius: 0.5rem;
+			background-color: #fff;
+			font-size: 1.2rem;
+			font-weight: bold;
+			padding: 1rem;
+			width: 100%;
+		}
+		
+		/**************************************/
+		
+		#flex_first {
+			width: 80vw;
+			height: 20vh;
+			min-height: 15rem;
+		}
+		
+		.center_list {
+			width:auto;
+			list-style-position: inside;
+		}
+		
+		/**************************************/
+		
+		#flex_second_wrapper{
+			list-style-type: none;
+		}
+		
+		.form-row,
+		.form-row > * {
+			padding: 0.5rem;
+		}
+		
+		.form-row > fieldset {
+			background-color: #fff;
+		}
+		
+		.form-row > button {
+			width:auto;
+			margin: 0.5rem;
+		}
+		
+		/**************************************/
+		
+		.placeholder_image {
+			background-color: #26607F;
+			height: 10rem;
+		}
+		
+		/**************************************/
+		
+		.flex_div {
+			color: #fff;
+		}
+	
+
+
+/* ----- Section 1 ----- */
+/* 599px or smaller wide */
+@media only screen and (max-width:600px) {  
+    
+}  
+
+
+/* 600px - 1200px wide */
+@media only screen and (min-width:600px) {  
+    
+}  
+
+
+/* 1200px or wider */
+@media only screen and (min-width:1200px) {
+    
+} 
+
+
+/* ----- Section 2 ----- */
+/* 599px or smaller wide */
+@media only screen and (max-width:600px) {  
+    
+}  
+
+
+/* 600px - 1200px wide */
+@media only screen and (min-width:600px) {  
+    
+}  
+
+
+/* 1200px or wider */
+@media only screen and (min-width:1200px) {
+    
+} 
+
+
+/* ----- Section 3 ----- */
+/* 599px or smaller wide */
+@media only screen and (max-width:600px) {  
+    
+}  
+
+
+/* 600px - 1200px wide */
+@media only screen and (min-width:600px) {  
+    
+}  
+
+
+/* 1200px or wider */
+@media only screen and (min-width:1200px) {
+    
+} 
+
+
+/* ----- Section 4 ----- */
+/* 599px or smaller wide */
+@media only screen and (max-width:600px) {  
+    
+}  
+
+
+/* 600px - 1200px wide */
+@media only screen and (min-width:600px) {  
+    
+}  
+
+
+/* 1200px or wider */
+@media only screen and (min-width:1200px) {
+    
+} 
+
