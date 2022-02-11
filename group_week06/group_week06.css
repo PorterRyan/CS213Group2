@@ -80,81 +80,88 @@
 		.flex_div {
 			color: #fff;
 		}
+
+/**********************************/
+
+/* Small Size */
+#flex_second {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #flex_second fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #grid_second {
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-gap: 1rem;
+  }
+  #grid_second .white_rounded {
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+  
+  .box9 .blue_rounded{
+    font-size: 0.8rem;
+    padding: 1.5em;
+    margin: 3.5em;
+  }
+
+
+/* Medium Size */ 
+@media only screen and (min-width:600px) {
+         
+      #grid_second {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+      }
+    
+      #grid_second .box1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+      }
+    
+      #grid_second .box9 {
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      
+      }
+
+      .box9 .blue_rounded {
+        margin: 1rem;
+      }
+
+    }
+
+/* Large Size */
+@media only screen and (min-width: 1000px){   
+      #grid_second {
+        grid-template-columns: 2fr 3fr 2fr;
+        grid-template-rows: repeat(4, 1fr);
+      }
+    
+      #grid_second .box1 {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 2;
+      }
+    
+      #grid_second .box9 {
+        align-items: center;
+        justify-content: center;
+        flex-flow: nowrap;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      
+      .box9 {
+        text-align: center;
+      }
+}
 	
 
-
-/* ----- Section 1 ----- */
-/* 599px or smaller wide */
-@media only screen and (max-width:600px) {  
-    
-}  
-
-
-/* 600px - 1200px wide */
-@media only screen and (min-width:600px) {  
-    
-}  
-
-
-/* 1200px or wider */
-@media only screen and (min-width:1200px) {
-    
-} 
-
-
-/* ----- Section 2 ----- */
-/* 599px or smaller wide */
-@media only screen and (max-width:600px) {  
-    
-}  
-
-
-/* 600px - 1200px wide */
-@media only screen and (min-width:600px) {  
-    
-}  
-
-
-/* 1200px or wider */
-@media only screen and (min-width:1200px) {
-    
-} 
-
-
-/* ----- Section 3 ----- */
-/* 599px or smaller wide */
-@media only screen and (max-width:600px) {  
-    
-}  
-
-
-/* 600px - 1200px wide */
-@media only screen and (min-width:600px) {  
-    
-}  
-
-
-/* 1200px or wider */
-@media only screen and (min-width:1200px) {
-    
-} 
-
-
-/* ----- Section 4 ----- */
-/* 599px or smaller wide */
-@media only screen and (max-width:600px) {  
-    
-}  
-
-
-/* 600px - 1200px wide */
-@media only screen and (min-width:600px) {  
-    
-}  
-
-
-/* 1200px or wider */
-@media only screen and (min-width:1200px) {
-    
-} 
 
