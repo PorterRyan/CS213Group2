@@ -1,0 +1,168 @@
+
+/*----------Original CSS from .HTML ----------------- */
+		* {
+			box-sizing: border-box;
+		}
+		
+		body {
+			margin: 0;
+			font-size: 62.5%;
+		}
+		
+		ul {
+			padding-left: 0;
+		}
+		
+		/**************************************/
+		
+		.blue_rounded {
+			border: 2px solid #26607F;
+			border-radius: 0.5rem;
+			background-color: #0076b6;
+			font-size: 1.2rem;
+			font-weight: bold;
+			margin: 1rem;
+			padding: 1rem;
+		}
+		
+		.white_rounded {
+			border: 2px solid #26607F;
+			border-radius: 0.5rem;
+			background-color: #fff;
+			font-size: 1.2rem;
+			font-weight: bold;
+			padding: 1rem;
+			width: 100%;
+		}
+		
+		/**************************************/
+		
+		#flex_first {
+			width: 80vw;
+			height: 20vh;
+			min-height: 15rem;
+		}
+		
+		.center_list {
+			width:auto;
+			list-style-position: inside;
+		}
+		
+		/**************************************/
+		
+		#flex_second_wrapper{
+			list-style-type: none;
+		}
+		
+		.form-row,
+		.form-row > * {
+			padding: 0.5rem;
+		}
+		
+		.form-row > fieldset {
+			background-color: #fff;
+		}
+		
+		.form-row > button {
+			width:auto;
+			margin: 0.5rem;
+		}
+		
+		/**************************************/
+		
+		.placeholder_image {
+			background-color: #26607F;
+			height: 10rem;
+		}
+		
+		/**************************************/
+		
+		.flex_div {
+			color: #fff;
+		}
+
+/**********************************/
+
+/* Section 4 */
+/* Small Size */
+#flex_second {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #flex_second fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #grid_second {
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-gap: 1rem;
+  }
+  #grid_second .white_rounded {
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+  
+  .box9 .blue_rounded{
+    font-size: 0.8rem;
+    padding: 1.5em;
+    margin: 3.5em;
+  }
+
+
+/* Medium Size */ 
+@media only screen and (min-width:600px) {
+         
+      #grid_second {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+      }
+    
+      #grid_second .box1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+      }
+    
+      #grid_second .box9 {
+        align-items: center;
+        justify-content: center;
+        flex-flow: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      
+      }
+
+      .box9 .blue_rounded {
+        margin: 1rem;
+      }
+
+    }
+
+/* Large Size */
+@media only screen and (min-width: 1000px){   
+      #grid_second {
+        grid-template-columns: 2fr 3fr 2fr;
+        grid-template-rows: repeat(4, 1fr);
+      }
+    
+      #grid_second .box1 {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 2;
+      }
+    
+      #grid_second .box9 {
+        align-items: center;
+        justify-content: center;
+        flex-flow: nowrap;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      
+      .box9 {
+        text-align: center;
+      }
+}
+	
+
+
