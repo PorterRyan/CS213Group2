@@ -54,17 +54,23 @@
 			list-style-type: none;
 		}
 		
-		.form-row,
+			.form-row,
 		.form-row > * {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
 			padding: 0.5rem;
 		}
-		
+        
+      
 		.form-row > fieldset {
+            
 			background-color: #fff;
 		}
 		
 		.form-row > button {
-			width:auto;
+            
+            width: auto;
 			margin: 0.5rem;
 		}
 		
